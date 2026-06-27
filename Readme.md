@@ -57,6 +57,7 @@ Then open:index.html
 OR use Live Server extension
 
 🌐 API Used
+
 Exchange Rates API : https://open.er-api.com/v6/latest/USD
 Flags API : https://flagsapi.com/{countryCode}/flat/64.png
 ```
@@ -65,10 +66,10 @@ Flags API : https://flagsapi.com/{countryCode}/flat/64.png
 <img width="477" height="468" alt="Screenshot 2026-06-27 124621" src="https://github.com/user-attachments/assets/0c62497c-b392-40f9-bab4-a2567996e568" />
 
 📌 Future Improvements
-1)Searchable dropdown
-2)Dark mode support
-3)Historical exchange charts
-4)Favorite currencies system
+- Searchable dropdown
+- Dark mode support
+- Historical exchange charts
+- Favorite currencies system
 
 🤝 Contributing
 
@@ -76,4 +77,5 @@ Pull requests are welcome.
 For major changes, open an issue first to discuss what you would like to change.
 
 📄 License
+
 This project is open-source and free to use.
