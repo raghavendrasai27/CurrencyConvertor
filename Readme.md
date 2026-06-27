@@ -59,7 +59,7 @@ OR use Live Server extension
 🌐 API Used
 Exchange Rates API : https://open.er-api.com/v6/latest/USD
 Flags API : https://flagsapi.com/{countryCode}/flat/64.png
-
+```
 📸 Preview
 <img width="477" height="468" alt="Screenshot 2026-06-27 124621" src="https://github.com/user-attachments/assets/0c62497c-b392-40f9-bab4-a2567996e568" />
 
