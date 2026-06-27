@@ -26,15 +26,15 @@ It fetches real-time exchange rates using the Open Exchange Rate API and allows 
 - Flag API (https://flagsapi.com)
 
 ---
-
 ## 📂 Project Structure
 
-currency-converter/
-│
-├── index.html
-├── style.css
-├── app.js
-└── README.md
+```bash
+Currency-Converter/
+├── index.html   # Main HTML file
+├── style.css    # Styling file
+├── app.js       # JavaScript logic
+└── README.md    # Documentation
+```
 
 ---
 
