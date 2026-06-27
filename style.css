@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a5af9, #9c88ff);
+}
+
+.container {
+  width: 360px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.amount label {
+  font-size: 14px;
+  color: #333;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  padding: 5px;
+  border-radius: 10px;
+  width: 120px;
+  position: relative;
+}
+
+.box img {
+  width: 28px;
+  margin-right: 5px;
+  pointer-events: none; /* 🔥 FIX IMPORTANT */
+}
+
+.box select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.swap-icon {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 50%;
+  background: #6a5af9;
+  color: white;
+  user-select: none;
+}
+
+.msg {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #6a5af9;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #574bda;
+}
